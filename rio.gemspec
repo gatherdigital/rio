@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email      = "rio4ruby@rubyforge.org"
   s.summary  = "Rio is a facade for most of the standard ruby classes that deal with I/O"
   s.description  = "Rio is a facade for most of the standard ruby classes that deal with I/O"
-  s.files        = Dir["{app,config,lib,ex,doc,test}/**/*"] + %w[LICENSE COPYING README.rdoc Rakefile build_doc.rb setup.rb]
+  s.files        = Dir["{app,config,lib,ex,doc,test}/**/*"] + %w[COPYING README Rakefile build_doc.rb setup.rb]
   s.require_path = "lib"
   s.rdoc_options = ["--show-hash", "--line-numbers","-mRIO::Doc::SYNOPSIS", "-Tdoc/generators/template/html/rio.rb"]
   
