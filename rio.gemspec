@@ -357,29 +357,13 @@ files:
 has_rdoc: true
 homepage: http://rio.rubyforge.org/
 post_install_message: 
-rdoc_options: 
-- - --show-hash
-  - --line-numbers
-  - -mRIO::Doc::SYNOPSIS
-  - -Tdoc/generators/template/html/rio.rb
+rdoc_options = ["--show-hash", "--line-numbers","-mRIO::Doc::SYNOPSIS", "-Tdoc/generators/template/html/rio.rb"]
 require_paths: 
 - lib
-required_ruby_version: !ruby/object:Gem::Requirement 
-  requirements: 
-  - - ">="
-    - !ruby/object:Gem::Version 
-      version: "0"
-  version: 
-required_rubygems_version: !ruby/object:Gem::Requirement 
-  requirements: 
-  - - ">="
-    - !ruby/object:Gem::Version 
-      version: "0"
-  version: 
-requirements: []
+required_ruby_version = '>= 1.9.2'
+required_rubygems_version = '>= 1.3.6'
 
 rubyforge_project: rio
-rubygems_version: 1.3.1
 signing_key: 
 specification_version: 2
 summary: Rio - Ruby I/O Facilitator
