@@ -3,7 +3,7 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name         = "rio"
-  s.version      = 0.4.3.1
+  s.version      = "0.4.3.1"
   s.platform     = Gem::Platform::RUBY
   s.authors      = ["Christopher Kleckner"]
   s.email      = "rio4ruby@rubyforge.org"
